@@ -1,4 +1,5 @@
 streamlit
+onnxruntime
 rembg
 pandas
 numpy
