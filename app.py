@@ -59,7 +59,7 @@ def go_home():
     st.session_state.page = "home"
 
 # --- UI Header ---
-st.title("# :rainbow[📸 Photo Tools Web App]")
+st.title(" :rainbow[Noman Photo App]")
 cols = st.columns(6)
 
 if cols[0].button("🏠 Home"):
