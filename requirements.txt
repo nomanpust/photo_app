@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 streamlit
 onnxruntime
 rembg
 pandas
 numpy
+=======
+Pillow==9.2.0
+requests==2.28.1
+streamlit==1.22.0
+streamlit_lottie==0.0.3
+>>>>>>> 94b8e9e (make more fency)
