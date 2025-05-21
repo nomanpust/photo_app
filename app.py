@@ -72,7 +72,7 @@ with sidebar_col:
         st.session_state.page = "passport"
     if st.button(":rainbow[🔄 Remove Background]"):
         st.session_state.page = "bg"
-    if st.button(":rainbow[🖼️ 4X6 Layout with Six Photos]"):
+    if st.button(":rainbow[🖼️ 4X6 Layout (6 Photos)]"):
         st.session_state.page = "layout"
     if st.button(":rainbow[🌈 Add Background Color]"):
         st.session_state.page = "bg_color"
@@ -132,7 +132,7 @@ with display_col:
                     st.download_button("Download Passport", data=buf.getvalue(), file_name="passport.jpg", mime="image/jpeg")
 
             elif st.session_state.page == "layout":
-                if st.button("Create 4x6 Layout"):
+                if st.button("Create 4x6 Layout with 6 photos"):
                     passport_img = resize_passport(image)
                     layout_img = create_4x6_layout(passport_img)
                     st.image(layout_img, caption="4x6 Layout", use_container_width=False)
